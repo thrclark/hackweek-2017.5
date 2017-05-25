@@ -48,18 +48,13 @@ footer .btn.btn-link:hover {
 	box-shadow: 0 0px 5px 0 rgba(0,0,0,0.26);
 	display: none;
 }
-
-
-
 .blur {
-	  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
-  filter: blur(3px);
- }
-
-
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+}
 </style>
 </head>
 <body id="top">
@@ -151,8 +146,7 @@ footer .btn.btn-link:hover {
 			$(".main-content").toggleClass("blur");
         });
     });
-</script>
-
+</script> 
 <script>
     $(document).ready(function() {
         $("#toggle_locations").click(function() {
@@ -161,7 +155,7 @@ footer .btn.btn-link:hover {
 			$(".main-content").toggleClass("blur");
         });
     });
-</script>
+</script> 
 <script>
     $(document).ready(function() {
         $("#toggle_appinfo").click(function() {
@@ -171,9 +165,5 @@ footer .btn.btn-link:hover {
         });
     });
 </script>
-
-
-
-
 </body>
 </html>
