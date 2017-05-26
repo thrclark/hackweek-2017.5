@@ -120,6 +120,28 @@ footer .btn.btn-link:hover {
 	max-widthhhh: 180px;
 }
 }
+#view_home .well.well-sm {
+	-webkit-box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+	box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+	background: #ffffff;
+}
+#view_home .well.well-sm .lead {
+	padding-bottom: 0px;
+	font-size: 20px;
+}
+#view_home .well.well-sm .fa.pull-right {
+	font-size: 36px;
+    color: #ebebeb;
+    position: absolute;
+    right: 24px;
+    top: 7px;
+}
+#view_home .row .col-md-4.col-sm-6.col-xs-12 a {
+	color: #333333;
+}
+#view_home .row .col-md-4.col-sm-6.col-xs-12 a .well.well-sm {
+	margin-bottom: 10px;
+}
 </style>
 </head>
 <body id="top">
@@ -141,64 +163,109 @@ footer .btn.btn-link:hover {
                     <div class="input-group input-group-lg" style="margin-top:15px;margin-bottom:15px;">
                         <input type="text" class="form-control" placeholder="Search for...">
                         <span class="input-group-btn">
-                        <button class="btn btn-danger btn-lg" type="button" id="searchbutton"><span class="hidden-xs">Find It!</span> <span class="visible-xs"><i class="fa fa-search" aria-hidden="true"></i></span></button>
+                        <button class="btn btn-danger btn-lg searchbutton" type="button" id=""><span class="hidden-xs">Find It!</span> <span class="visible-xs"><i class="fa fa-search" aria-hidden="true"></i></span></button>
                         </span> </div>
                 </div>
             </div>
         </div>
     </section>
-    <div class="main-content container" role="main" style="display:none" id="view_home">
-        <div class="row" style="margin-top:20px">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well "> Activity </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Announcements </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Collectibles </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Books </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Electronics </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Furniture </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Jobs </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Lost & Found </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Miscellaneous </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Music &amp; Arts </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Rides </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Housing </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Events </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Vehicles </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="well"> Wanted </div>
-            </div>
+    <div class="main-content container" role="main" style="display:block" id="view_home">
+        <div class="row" style="margin-top:20px"><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Activity </div>
+                    <i class="fa fa-soccer-ball-o pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Announcements </div>
+                    <i class="fa fa-twitch pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Books </div>
+                    <i class="fa fa-book pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Collectibles </div>
+                    <i class="fa fa-archive pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Electronics </div>
+                    <i class="fa fa-mobile pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Furniture </div>
+                    <i class="fa fa-cubes pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Jobs </div>
+                    <i class="fa fa-handshake-o pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Lost &amp; Found </div>
+                    <i class="fa fa-question-circle-o pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Miscellaneous </div>
+                    <i class="fa fa-random pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Music & Arts </div>
+                    <i class="fa fa-music pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Rides </div>
+                    <i class="fa fa-taxi pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Housing </div>
+                    <i class="fa fa-home pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Events </div>
+                    <i class="fa fa-calendar-check-o pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Vehicles </div>
+                    <i class="fa fa-motorcycle pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                <div class="well well-sm">
+                    <div class="lead pull-left"> Wanted </div>
+                    <i class="fa fa-ticket pull-right" aria-hidden="true"></i>
+                    <div class="clearfix"></div>
+                </div>
+                </a> </div>
         </div>
     </div>
-    <div class="main-content container" role="main" style=" display:block" id="view_searchreturn">
+    <div class="main-content container" role="main" style=" display:none" id="view_searchreturn">
         <div class="row">
-            <div class="col-xs-12"><a href="#" style="font-size: 32px;color: #9d9d9d;padding-right: 10px;"><i class="fa fa-home" aria-hidden="true"></i></a>
+            <div class="col-xs-12"><a href="#" class="app_reset" style="font-size: 32px;color: #9d9d9d;padding-right: 10px;"><i class="fa fa-home" aria-hidden="true"></i></a>
                 <h3 style="border-left: solid 1px #cccccc; padding-left: 10px; display:inline-block">Search Results: Vehicles</h3>
             </div>
         </div>
@@ -338,7 +405,7 @@ footer .btn.btn-link:hover {
 <script type="text/javascript" src="../js/bootstrap.min.js"></script> 
 <script>
     $(document).ready(function() {
-        $("#searchbutton").click(function() {
+        $(".searchbutton").click(function() {
          
 			$("#view_home").hide();
 			$("#view_searchreturn").show();
@@ -375,7 +442,7 @@ footer .btn.btn-link:hover {
 </script> 
 <script>
     $(document).ready(function() {
-        $("#app_reset").click(function() {
+        $(".app_reset").click(function() {
 			$(".userinfo,.locations,.appinfo,#view_searchreturn").hide();
 			$("#view_home").show();
 			$(".main-content").removeClass("blur");
