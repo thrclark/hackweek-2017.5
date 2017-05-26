@@ -147,8 +147,7 @@ footer .btn.btn-link:hover {
             </div>
         </div>
     </section>
- 
-    <div class="main-content container" role="main" style="display:block" id="view_home">
+    <div class="main-content container" role="main" style="display:none" id="view_home">
         <div class="row" style="margin-top:20px">
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="well "> Activity </div>
@@ -197,9 +196,12 @@ footer .btn.btn-link:hover {
             </div>
         </div>
     </div>
-    
-    
-       <div class="main-content container" role="main" style=" display:none" id="view_searchreturn">
+    <div class="main-content container" role="main" style=" display:block" id="view_searchreturn">
+        <div class="row">
+            <div class="col-xs-12"><a href="#" style="font-size: 32px;color: #9d9d9d;padding-right: 10px;"><i class="fa fa-home" aria-hidden="true"></i></a>
+                <h3 style="border-left: solid 1px #cccccc; padding-left: 10px; display:inline-block">Search Results: Vehicles</h3>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-4">
                 <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
@@ -211,6 +213,7 @@ footer .btn.btn-link:hover {
                                 ...</p>
                             <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
                     </div>
+                    <div class="sticker sticker-new"></div>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -218,8 +221,21 @@ footer .btn.btn-link:hover {
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/bike1.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
-                            <h4 class="media-heading"> <a href="#" target="_parent">$11,900 <small class="pull-right">Selling</small></a></h4>
-                            <p> <strong>2011 Mini Cooper</strong> - Runs great, fun to drive, no major issues. 78,000 miles, all service records available
+                            <h4 class="media-heading"> <a href="#" target="_parent">$50 <small class="pull-right">Selling</small></a></h4>
+                            <p> <strong>Pedal Bike</strong> - Ignorant saw her her drawings marriage laughter. Case oh an that or away sigh do 
+                                ...</p>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
+                    </div>
+                    <div class="sticker sticker-new"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                    <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car-blank.png"></a>
+                        <div class="clearfix visible-sm"></div>
+                        <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
+                            <h4 class="media-heading"> <a href="#" target="_parent">up to $400 <small class="pull-right">Looking</small></a></h4>
+                            <p> <strong>Scooter</strong> - Do in laughter securing smallest sensible no mr hastened. As perhaps
                                 ...</p>
                             <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
                     </div>
@@ -231,7 +247,7 @@ footer .btn.btn-link:hover {
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
                             <h4 class="media-heading"> <a href="#" target="_parent">$11,900 <small class="pull-right">Selling</small></a></h4>
-                            <p> <strong>2011 Mini Cooper</strong> - Runs great, fun to drive, no major issues. 78,000 miles, all service records available
+                            <p> <strong>2009 Toyota</strong> - Abilities or he perfectly pretended so strangers be exquisite. Oh to another  
                                 ...</p>
                             <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
                     </div>
@@ -243,7 +259,7 @@ footer .btn.btn-link:hover {
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
                             <h4 class="media-heading"> <a href="#" target="_parent">$11,900 <small class="pull-right">Selling</small></a></h4>
-                            <p> <strong>2011 Mini Cooper</strong> - Runs great, fun to drive, no major issues. 78,000 miles, all service records available
+                            <p> <strong>2014 Honda</strong> - Him boisterous invitation dispatched had connection inhabiting projection.
                                 ...</p>
                             <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
                     </div>
@@ -254,8 +270,20 @@ footer .btn.btn-link:hover {
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car2.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
-                            <h4 class="media-heading"> <a href="#" target="_parent">$11,900 <small class="pull-right">Selling</small></a></h4>
-                            <p> <strong>2011 Mini Cooper</strong> - Runs great, fun to drive, no major issues. 78,000 miles, all service records available
+                            <h4 class="media-heading"> <a href="#" target="_parent">$7000 <small class="pull-right">Selling</small></a></h4>
+                            <p> <strong>2006 Ford Sedan</strong> - Of on affixed civilly moments promise explain fertile in. Assurance
+                                ...</p>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                    <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car-blank.png"></a>
+                        <div class="clearfix visible-sm"></div>
+                        <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
+                            <h4 class="media-heading"> <a href="#" target="_parent">$1000 <small class="pull-right">Selling</small></a></h4>
+                            <p> <strong>Hond Civic</strong> - Do in laughter securing smallest sensible no mr hastened. As perhaps
                                 ...</p>
                             <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
                     </div>
@@ -266,8 +294,8 @@ footer .btn.btn-link:hover {
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/bike3.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
-                            <h4 class="media-heading"> <a href="#" target="_parent">$11,900 <small class="pull-right">Selling</small></a></h4>
-                            <p> <strong>2011 Mini Cooper</strong> - Runs great, fun to drive, no major issues. 78,000 miles, all service records available
+                            <h4 class="media-heading"> <a href="#" target="_parent">$25 <small class="pull-right">Selling</small></a></h4>
+                            <p> <strong>10 speed bike</strong> - Day handsome addition horrible sensible goodness two contempt. Evening for 
                                 ...</p>
                             <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
                     </div>
@@ -278,8 +306,8 @@ footer .btn.btn-link:hover {
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car3.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
-                            <h4 class="media-heading"> <a href="#" target="_parent">$11,900 <small class="pull-right">Selling</small></a></h4>
-                            <p> <strong>2011 Mini Cooper</strong> - Runs great, fun to drive, no major issues. 78,000 miles, all service records available
+                            <h4 class="media-heading"> <a href="#" target="_parent">$4500 <small class="pull-right">Selling</small></a></h4>
+                            <p> <strong>2003 Dodge Stratus</strong> - Cordially convinced did incommode existence put out suffering certainly.
                                 ...</p>
                             <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
                     </div>
@@ -290,8 +318,8 @@ footer .btn.btn-link:hover {
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car5.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
-                            <h4 class="media-heading"> <a href="#" target="_parent">$11,900 <small class="pull-right">Selling</small></a></h4>
-                            <p> <strong>2011 Mini Cooper</strong> - Runs great, fun to drive, no major issues. 78,000 miles, all service records available
+                            <h4 class="media-heading"> <a href="#" target="_parent">$9500 <small class="pull-right">Selling</small></a></h4>
+                            <p> <strong>2011 Nissan</strong> - Paid was hill sir high. For him precaution any advantages dissimilar comparison
                                 ...</p>
                             <span class="fnt-smaller fnt-lighter fnt-arial">(317)4037263 | filoo@yandex.ru </span> </div>
                     </div>
@@ -301,9 +329,6 @@ footer .btn.btn-link:hover {
             <!-- End Col --> 
         </div>
     </div>
-    
-    
-    
     <?php include ('includes/modaless-userinfo.php') ?>
     <?php include ('includes/modaless-locations.php') ?>
     <?php include ('includes/modaless-appinfo.php') ?>
@@ -311,10 +336,6 @@ footer .btn.btn-link:hover {
 </div>
 <script type="text/javascript" src="../js/jquery.js"></script> 
 <script type="text/javascript" src="../js/bootstrap.min.js"></script> 
-
-
-
-
 <script>
     $(document).ready(function() {
         $("#searchbutton").click(function() {
@@ -325,8 +346,6 @@ footer .btn.btn-link:hover {
         });
     });
 </script> 
-
-
 <script>
     $(document).ready(function() {
         $("#toggle_userinfo").click(function() {
@@ -351,6 +370,15 @@ footer .btn.btn-link:hover {
             $(".appinfo").slideToggle();
 			$(".userinfo,.locations").hide();
 			$(".main-content").toggleClass("blur");
+        });
+    });
+</script> 
+<script>
+    $(document).ready(function() {
+        $("#app_reset").click(function() {
+			$(".userinfo,.locations,.appinfo,#view_searchreturn").hide();
+			$("#view_home").show();
+			$(".main-content").removeClass("blur");
         });
     });
 </script>
