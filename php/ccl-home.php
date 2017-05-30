@@ -81,19 +81,6 @@ footer .btn.btn-link:hover {
 .fnt-lighter {
 	color: #bbb;
 }
-/* Padding - Margins */
-.pad-10 {
-	padding: 10px!important;
-}
-.mrg-0 {
-	margin: 0!important;
-}
-.btm-mrg-10 {
-	margin-bottom: 10px!important;
-}
-.btm-mrg-20 {
-	margin-bottom: 20px!important;
-}
 /* Color  */
 .clr-535353 {
 	color: #535353;
@@ -113,34 +100,6 @@ footer .btn.btn-link:hover {
 .property-listing .media-body {
 	padding: 10px;
 }
-}
-
-@media only screen and (min-width: 992px) {
-.property-listing img {
-	max-widthhhh: 180px;
-}
-}
-#view_home .well.well-sm {
-	-webkit-box-shadow: 1px 1px 0 rgba(0,0,0,.2);
-	box-shadow: 1px 1px 0 rgba(0,0,0,.2);
-	background: #ffffff;
-}
-#view_home .well.well-sm .lead {
-	padding-bottom: 0px;
-	font-size: 20px;
-}
-#view_home .well.well-sm .fa.pull-right {
-	font-size: 36px;
-    color: #ebebeb;
-    position: absolute;
-    right: 24px;
-    top: 7px;
-}
-#view_home .row .col-md-4.col-sm-6.col-xs-12 a {
-	color: #333333;
-}
-#view_home .row .col-md-4.col-sm-6.col-xs-12 a .well.well-sm {
-	margin-bottom: 10px;
 }
 </style>
 </head>
@@ -170,91 +129,106 @@ footer .btn.btn-link:hover {
         </div>
     </section>
     <div class="main-content container" role="main" style="display:block" id="view_home">
-        <div class="row" style="margin-top:20px"><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+        <div class="row" style="margin-top:20px">
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Activity </div>
                     <i class="fa fa-soccer-ball-o pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Announcements </div>
                     <i class="fa fa-twitch pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Books </div>
                     <i class="fa fa-book pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Collectibles </div>
                     <i class="fa fa-archive pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Electronics </div>
                     <i class="fa fa-mobile pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Furniture </div>
                     <i class="fa fa-cubes pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Jobs </div>
                     <i class="fa fa-handshake-o pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Lost &amp; Found </div>
                     <i class="fa fa-question-circle-o pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Miscellaneous </div>
                     <i class="fa fa-random pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Music & Arts </div>
                     <i class="fa fa-music pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Rides </div>
                     <i class="fa fa-taxi pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Housing </div>
                     <i class="fa fa-home pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Events </div>
                     <i class="fa fa-calendar-check-o pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Vehicles </div>
                     <i class="fa fa-motorcycle pull-right" aria-hidden="true"></i>
                     <div class="clearfix"></div>
                 </div>
-                </a> </div><div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
+                </a> </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> <a href="#" class="searchbutton">
                 <div class="well well-sm">
                     <div class="lead pull-left"> Wanted </div>
                     <i class="fa fa-ticket pull-right" aria-hidden="true"></i>
@@ -265,13 +239,24 @@ footer .btn.btn-link:hover {
     </div>
     <div class="main-content container" role="main" style=" display:none" id="view_searchreturn">
         <div class="row">
-            <div class="col-xs-12"><a href="#" class="app_reset" style="font-size: 32px;color: #9d9d9d;padding-right: 10px;"><i class="fa fa-home" aria-hidden="true"></i></a>
-                <h3 style="border-left: solid 1px #cccccc; padding-left: 10px; display:inline-block">Search Results: Vehicles</h3>
+            <div class="col-xs-12 col-sm-8"><a href="#" class="app_reset" style="font-size: 32px;color: #9d9d9d;padding-right: 10px;"><i class="fa fa-home" aria-hidden="true"></i></a>
+                <h3 style="border-left: solid 1px #cccccc; padding-left: 10px; display:inline-block;margin-bottom: 20px;">Search Results: Vehicles</h3>
+            </div>
+            <div class="col-sm-4 hidden-xs" style="padding-top: 20px;"> 
+                <!-- Single button -->
+                <div class="btn-group pull-right">
+                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Grid View <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Grid</a></li>
+                        <li><a href="#">Thumbnail</a></li>
+                        <li><a href="#">List</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car4.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -284,7 +269,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/bike1.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -297,7 +282,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car-blank.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -309,7 +294,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car1.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -321,7 +306,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/bike2.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -333,7 +318,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car2.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -345,7 +330,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car-blank.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -357,7 +342,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/bike3.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -369,7 +354,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car3.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
@@ -381,7 +366,7 @@ footer .btn.btn-link:hover {
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                <div class="brdr bgc-fff pad-10 box-shad property-listing">
                     <div class="media"> <a class="pull-left" href="#" target="_parent"> <img alt="image" class="img-responsive" src="../img/car5.png"></a>
                         <div class="clearfix visible-sm"></div>
                         <div class="media-body fnt-smaller"> <a href="#" target="_parent"></a>
